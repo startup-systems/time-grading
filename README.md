@@ -2,14 +2,6 @@
 
 The score is out of 100.
 
-## Checking a single pull request
-
-From this directory, run:
-
-```bash
-pip3 install -r ../requirements.txt
-python3 run_single.py <pull_request_url>
-```
 
 ## Grading all submissions
 
@@ -21,8 +13,7 @@ _This is intended for staff._
 1. From this directory, run:
 
     ```bash
-    pip3 install -r ../requirements.txt
-    python3 run_all.py <path/to/responses>.csv grades.csv
+    python run_all.py <path/to/responses>.csv grades.csv
     ```
 
 1. `grades.csv` can then be uploaded to CMS.
